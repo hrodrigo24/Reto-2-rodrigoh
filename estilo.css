@@ -1,0 +1,22 @@
+
+
+body {
+	color: brown;
+	background: beige;
+}
+
+#seccion1 {
+	font-size: 60px;
+	text-align: center;
+	background-image: url(https://cdn.pixabay.com/photo/2018/11/07/21/48/green-3801293_1280.jpg);
+	background-size: 2500px 250px;
+}
+
+#proyectos{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.proyecto img{
+	height: 500px;
+}
