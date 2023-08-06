@@ -3,22 +3,100 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>Turismo en Antioquia</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-	<section id="seccion1">
-		<h1>Bienvenidos</h1>
-	</section>
-	<section id="proyectos">
-		<div class="proyecto">
-			<p>Piedra del Peñol</p>
-			<img src="img/piedra.jpg">
+	<div class="container">
+		<!-- Encabezado y logo-->
+		<header>
+			<div class="container-logo">
+				<i class="fa-solid fa-earth-americas"></i>
+				<h1>Turismo en Antioquia</h1>
+			</div>
+
+			<!-- Menú -->
+			<nav>
+				<ul>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Naturales</a></li>
+					<li><a href="#">Pueblos</a></li>
+					<li><a href="#">Lugares</a></li>
+				</ul>
+			</nav>
+
+			<!-- Secciones -->
+			<div class="busqueda">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<input type="text" placeholder="Buscar">
+			</div>
+		</header>
+
+		<div class="informacion">
+			<div class="fila">
+
+				<div class="col">
+					<h2 id="nombre">Blog</h2>
+
+					<!-- Insertar textos -->
+						<p id="descripcion">
+							Estos son los sitios más recomendados de Antioquia
+						</p>
+							<div class="foto" id="">
+								<img src="img/sitios.png" alt="">
+							</div>
+				
+				<div class="col">
+					<h2 id="nombre">El Peñol</h2>
+
+					<!-- Insertar textos -->
+						<p id="descripcion">
+							El Peñol es un municipio de Colombia, localizado en la subregión Oriente del departamento de Antioquia. Limita por el norte con el municipio de Concepción; por el nororiente con el municipio de Alejandría; por el occidente con los municipios de San Vicente, El Santuario y Marinilla; por el sur, con el municipio de Granada, y por el oriente con el municipio de Guatapé. Toda la macrorregión donde se localiza este municipio de El Peñol es conocida como "El Oriente Antioqueño".
+						</p>
+							<div class="foto" id="">
+								<img src="img/piedra.jpg" alt="">
+							</div>	
+
+					<div class="col">
+						<h2 id="nombre">SantaFe de Antioquia</h2>
+							<p id="descripcion">
+								Santa Fe de Antioquia es un municipio de Colombia, ubicado en la subregión Occidente de Antioquia, departamento del que fue capital hasta el 17 de abril de 1826. Limita por el norte con los municipios de Giraldo y Buriticá, por el nororiente con los municipios de Buriticá, Liborina y Olaya, por el oriente con los municipios de Olaya y Sopetrán, por el sur con los municipios de Ebéjico, Anzá y Caicedo, y por el occidente con los municipios de Caicedo, Abriaquí y Giraldo.
+							</p>
+						<div class="foto" id="">
+							<img src="img/santafe.jpg" alt="">
+						</div>							
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="proyecto">
-			<p>Santa Fe de Antioquia</p>
-			<img src="img/santafe.jpg">
-		</div>
-	</section>
+	</div>
+	<div class="col">
+		<h2 id="nombre">Qué hacer en Medellín - 12 Lugares</h2>
+	</div>
+
+	<!-- Insertar multimedia -->
+
+	<iframe width="1000" height="380" src="https://www.youtube.com/embed/H8-ij0mG2jM" title="Qué Hacer en Medellín · 12 LUGARES | Cómo llegar y Cuánto Vale |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+	</iframe>
+
+	<!-- Formulario de contacto -->
+
+	<div class="form-div">
+		<h3>Contacta con nosotros</h3>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.
+		</p>
+		<form action="">
+			<input type="text" placeholder="Nombre completo">
+			<input type="email" placeholder="Correo electronico">
+			<input type="text" placeholder="Asunto">
+			<textarea name="" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+			<input class="submit" type="submit" value="Enviar">	
+		</form>
+	</div>
 </body>
 </html>
